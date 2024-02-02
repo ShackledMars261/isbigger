@@ -10,5 +10,5 @@ setup(
     setup_requires=["pytest-runner"],
     tests_require=["pytest==4.4.1"],
     test_suite="tests",
-    long_description=read("README.md"),
+    long_description=open("README.md").read(),
 )
