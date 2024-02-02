@@ -6,7 +6,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "is-bigger"
-version = "0.1"
+version = "0.1.1"
+description = "Compare two integers like never before"
 authors = [
     {name = "ShackledMars261"}
 ]
