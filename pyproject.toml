@@ -18,3 +18,7 @@ dynamic = ["version", "dependencies", "optional-dependencies"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = "requirements.txt"}
+
+[project.urls]
+Documentation = "https://github.com/ShackledMars261/isbigger"
+"Bug Tracker" = "https://github.com/ShackledMars261/isbigger/issues"
