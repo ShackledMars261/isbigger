@@ -1,5 +1,6 @@
 README.md
 pyproject.toml
+requirements.txt
 setup.py
 is_bigger/__init__.py
 is_bigger/functions.py
@@ -7,3 +8,4 @@ is_bigger.egg-info/PKG-INFO
 is_bigger.egg-info/SOURCES.txt
 is_bigger.egg-info/dependency_links.txt
 is_bigger.egg-info/top_level.txt
+tests/test_functions.py

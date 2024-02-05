@@ -1,11 +1,22 @@
 Metadata-Version: 2.1
 Name: is-bigger
-Version: 0.1.1
-Summary: A package to compare two integers
-Home-page: UNKNOWN
+Version: 0.1.7
+Summary: Compare two integers like never before
 Author: ShackledMars261
-License: UNKNOWN
-Platform: UNKNOWN
+License: MIT
+Keywords: size,comparison,larger,smaller,equal,logic
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
 
-UNKNOWN
+# is_bigger
 
+```
+from is_bigger.functions import *
+
+isBigger(2,1) # True
+isSmaller(2,1) # False
+isEqual(3,3) # True
+isNotBigger(3,1) # False
+isNotSmaller(3,1) # True
+isNotEqual(3,1) # True
+```
