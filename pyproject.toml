@@ -20,5 +20,5 @@ dynamic = ["version", "dependencies", "optional-dependencies"]
 dependencies = {file = "requirements.txt"}
 
 [project.urls]
-Documentation = "https://github.com/ShackledMars261/isbigger"
+Documentation = "https://github.com/ShackledMars261/isbigger/wiki"
 "Bug Tracker" = "https://github.com/ShackledMars261/isbigger/issues"
