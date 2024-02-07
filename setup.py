@@ -7,7 +7,7 @@ def read(fname):
 setup(
     name="is_bigger",
     packages=find_packages(include=["is_bigger"]),
-    version="0.1.9",
+    version="0.2.0",
     description="A package to compare two integers",
     author="ShackledMars261",
     install_requires=[],

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "is-bigger"
-description = "Compare two integers like never before"
+description = "A package to compare two integers"
 authors = [
     {name = "ShackledMars261"}
 ]
