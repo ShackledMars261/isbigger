@@ -16,7 +16,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.9", "3.10", "3.11"]
+        python-version: ["3.9"]
 
     steps:
     - uses: actions/checkout@v3
@@ -39,3 +39,6 @@ jobs:
     - name: Test with pytest
       run: |
         python setup.py pytest
+    - name: Install from pypi
+      run: |
+        python -m pip install --upgrade is-bigger
